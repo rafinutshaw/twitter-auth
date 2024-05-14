@@ -1,4 +1,4 @@
-##How to get started.
+## How to get started.
 
 **Client**
 `cd client`
@@ -9,3 +9,5 @@
 `cd server`
 `npm i`
 `node --env-file=.env index.js`
+
+NB. Make sure port 3000 and 3001 are available.
