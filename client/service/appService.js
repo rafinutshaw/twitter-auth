@@ -7,4 +7,10 @@ export class AppService {
       withCredentials: true,
     });
   }
+
+  static logout() {
+    return httpService.get(BASE_API_URL + "/auth/logout", {
+      withCredentials: true,
+    });
+  }
 }
