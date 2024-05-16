@@ -19,7 +19,7 @@ Using the token the authentication state is persisted. The user's name and profi
 
 Once logged in the user can click `Logout` to clear his session and go back to the login page.
 
-![image](https://github.com/rafinutshaw/twitter-auth/assets/24876640/8f2ce554-9701-4584-816c-9e17da193c77)
+![image](https://github.com/rafinutshaw/twitter-auth/assets/24876640/53d63da4-0141-4c71-82bb-9ed6f587a8ce)
 Fig 1: Login state
 
 ![image](https://github.com/rafinutshaw/twitter-auth/assets/24876640/22367426-407b-43c0-afd4-2f1811a51c1b)
