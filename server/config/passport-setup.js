@@ -24,7 +24,7 @@ passport.use(
       done(null, {
         id: profile.id,
         name: profile.displayName,
-        photos: profile.photos,
+        photo: profile.photos[0].value.replace("_normal", ""),
       });
     }
   )

@@ -50,7 +50,7 @@ export default function Home() {
       <div className="min-h-1/2 bg-gray-900  border border-gray-900 rounded-2xl">
         <div className="sm:mx-24 md:mx-34 lg:mx-56 mx-auto w-48 flex items-center space-y-4 py-16 font-semibold text-gray-500 flex-col">
           {state.authenticated ? (
-            <ProfilePicture src={state.user.photos[0].value} />
+            <ProfilePicture src={state.user.photo} />
           ) : (
             <TwitterIcon />
           )}
